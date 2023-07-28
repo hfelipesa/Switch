@@ -17,11 +17,15 @@ public class Ejemplo2 {
             case 100:
                 System.out.println("El camino se fue por el 100");
                 break;
+            case 200:
+                System.out.printf("El camino se fue por el 200");
+                break;
 
             default:
                 System.out.println("El camino por defecto");
                 System.out.println("no es ni 0, ni 10, ni 100");
                 break;
+
         }
     }
 }
